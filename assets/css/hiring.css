@@ -1,0 +1,121 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.hiring-background img {
+    position: relative;
+}
+
+.hiring-background img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.hiring-background .overlay-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.hiring-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hiring-content .hiring-logo {
+    width: 200px;
+    height: auto;
+}
+
+.hiring-content .hiring-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 70%;
+}
+
+.hiring-content .hiring-body .hiring-headline {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+
+.hiring-content .hiring-body .hiring-headline .ladi-headline.other {
+    font: inherit;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: "Bungee", cursive;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.hiring-content .hiring-body .hiring-headline .ladi-headline {
+    font: inherit;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    line-height: 1.6;
+}
+
+.hiring-content .choose-role {
+    display: flex;
+    width: 70%;
+    justify-content: end;
+}
+
+.hiring-content .choose-role .choose-role-container {
+    display: flex;
+    width: 70%;
+    padding: 10px;
+    flex-direction: column;
+    width: max-content;
+}
+
+.hiring-content .choose-role .choose-role-container .role-headline {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.hiring-content .choose-role .choose-role-container .choose-role-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hiring-content .choose-role .choose-role-container .choose-role-btn .choose-role-item {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(255, 204, 0);
+    border-radius: 10px;
+    width: 376px;
+    height: 46px;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.hiring-content .choose-role .choose-role-container .choose-role-btn .choose-role-item:hover{
+    transform: scale(1.1);
+}
